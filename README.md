@@ -6,7 +6,7 @@
 
 ## ✅ Phase 1: Core Kubernetes Concepts
 
-- [ ] Cluster Architecture (control plane, worker nodes)
+- [x] Cluster Architecture (control plane, worker nodes)
 - [ ] kubectl Basics (`get`, `describe`, `logs`, `exec`)
 - [ ] Pods (multi-container pods, lifecycle)
 - [ ] ReplicaSets
