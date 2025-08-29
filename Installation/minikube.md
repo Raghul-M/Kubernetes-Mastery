@@ -1,5 +1,10 @@
 # Minikube Installation Guide
 
+<div align="center">
+  <img width="300" height="168" alt="Minikube Logo" src="https://github.com/user-attachments/assets/70015f21-adb7-4f37-a0d1-666f13ece656" />
+</div>
+
+
 Minikube is a lightweight Kubernetes implementation that creates a local single-node cluster for development and testing purposes. It's perfect for learning Kubernetes concepts and developing applications locally.
 
 ## Prerequisites
@@ -139,14 +144,27 @@ Open the Kubernetes dashboard in your browser:
 ```bash
 minikube dashboard
 ```
+### Kubectl Installation
+
+Kubectl is an Command line utility used to run any app on your Minikube cluster you’ll need kubectl, because that’s the CLI used to interact with Kubernetes.
+```
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+```
+### Check installtion
+```
+kubectl version --client
+```
 
 ### Test Cluster
 
 Deploy a simple application to test your cluster:
 
 ```bash
-kubectl create deployment hello-minikube --image=k8s.gcr.io/echoserver:1.4
-kubectl expose deployment hello-minikube --type=NodePort --port=8080
+kubectl create deployment hello-minikube --image=nginx
+kubectl expose deployment hello-minikube --type=NodePort --port=80
+kubectl get services hello-minikube
+minikube service hello-minikube --url
 ```
 
 ## Common Commands
@@ -189,15 +207,6 @@ minikube start --cpus=2
 # Set disk size
 minikube start --disk-size=20g
 ```
-
-## Next Steps
-
-After successfully installing Minikube:
-
-1. Install kubectl (Kubernetes command-line tool)
-2. Learn basic kubectl commands
-3. Deploy your first application
-4. Explore Kubernetes concepts with hands-on practice
 
 ## Resources
 
