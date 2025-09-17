@@ -214,11 +214,4 @@ minikube start --disk-size=20g
 - [Kubernetes Documentation](https://kubernetes.io/docs/)
 - [Docker Documentation](https://docs.docker.com/)
 
-## Support
 
-If you encounter issues:
-
-1. Check the [Minikube troubleshooting guide](https://minikube.sigs.k8s.io/docs/handbook/troubleshooting/)
-2. Review the logs: `minikube logs`
-3. Verify system requirements and prerequisites
-4. Check Docker installation and permissions
