@@ -2,9 +2,10 @@
 
 <br>
 <div align="center">
-  <img width="300" height="168" alt="KIND Logo" src="https://github.com/user-attachments/assets/70015f21-adb7-4f37-a0d1-666f13ece656" />
+  <img width="289" height="174" alt="Kind logo" src="https://github.com/user-attachments/assets/fa5f3a3f-6ddc-4614-845d-51f79d5a6d5c" />
 </div>
 <br><br>
+
 
 KIND (Kubernetes IN Docker) is a tool for running local Kubernetes clusters using Docker container "nodes". It's designed for testing Kubernetes itself and for local development and CI/CD workflows. KIND provides a fast and reliable way to create ephemeral Kubernetes clusters.
 
