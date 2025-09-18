@@ -1,0 +1,21 @@
+# Stage 1: Builder
+FROM python:3.12-slim AS builder
+WORKDIR /app
+
+# Copy requirements and install dependencies
+COPY requirements.txt .
+RUN pip install --target=/app/packages --no-cache-dir -r requirements.txt
+
+# Stage 2: Runtime
+FROM python:3.12-slim
+WORKDIR /app
+
+# Copy installed packages from builder stage
+COPY --from=builder /app/packages /usr/local/lib/python3.12/site-packages
+
+# Copy only the necessary application files
+COPY app.py .
+
+# Expose port and run Streamlit
+EXPOSE 8501
+CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
