@@ -1,5 +1,6 @@
 ## Docker Multistage Builds
 
+<img width="2854" height="1270" alt="image" src="https://github.com/user-attachments/assets/55c20b99-b697-407e-82c2-9fb4289c42a0" />
 
 
 Docker multi-stage build is a feature that allows you to use multiple stages inside one Dockerfile. Each stage can have its own base image and tools. The main idea is to build your application in one stage (with all heavy dependencies like compilers, SDKs, etc.) and then copy only the necessary output into a final lightweight image. In Multi Stage Each Stage is an layer .
