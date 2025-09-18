@@ -12,14 +12,14 @@
 - Written in Go programming language
 - Container orchestration tool
 
-**Problems in Docker:**
+### **Problems in Docker:**
 
 - **Single host failure**
 - **Manual healing** (If it is killed) -> **Auto healing** (Kubernetes)
 - **Doesn't scale** -> **Auto scaling** (Kubernetes)
 - **Simple platform lacks enterprise-level features**: load balancer, firewall, autoscale, API gateway, healing
 
-**Solutions for the above problems:**
+### **Solutions for the above problems:**
 
 1. **Cluster**: A group of nodes (Master nodes & worker nodes). When one cluster doesn’t get the resource, it puts it in another node.
 2. **Replica set/Replication controller**: Auto scaling
@@ -27,7 +27,7 @@
 4. **Enterprise-level container orchestration platform**: Load balancing, advanced networking, security
 
 
-**Kubernetes Is Not Always the Solution**
+### **Kubernetes Is Not Always the Solution**
 
 Kubernetes is a powerful container orchestration platform, but it’s not always the best choice for every use case.
 

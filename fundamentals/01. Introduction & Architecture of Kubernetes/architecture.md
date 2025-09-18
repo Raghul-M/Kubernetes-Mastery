@@ -11,7 +11,7 @@ Kubernetes architecture consists of **Master (Control Plane)** and **Worker node
 
 
 
-#### **Master Node Components**
+### **Master Node Components**
 
 1. **API Server**: The front end of the Kubernetes control plane, handling requests from:
 
@@ -29,7 +29,7 @@ Kubernetes architecture consists of **Master (Control Plane)** and **Worker node
 4. **etcd**: A key-value store that holds **all cluster data**, including configuration, state, and metadata.
 5. **Cloud Controller Manager**: Integrates Kubernetes with cloud provider APIs for resources like load balancers or storage.
 
-#### **Worker Node (Data Plane) Components**
+### **Worker Node (Data Plane) Components**
 
 1. **kubelet**: Handles creation, monitoring, and health checks of Pods on the node. Receives instructions from the master node to ensure Pods are running correctly and reports back status.
 2. **Container runtime**: Required to run containers. Examples: `containerd`, `cri-o`, `Docker`.
@@ -39,7 +39,7 @@ Kubernetes architecture consists of **Master (Control Plane)** and **Worker node
    * Load balancing between Pods
    * Implementing network rules using IP tables
 
-#### **Kubernetes Request Flow (User → Cluster → Response)**
+### **Kubernetes Request Flow (User → Cluster → Response)**
 
 1. **User sends a request** using `kubectl` or Dashboard.
 2. **API Server** receives the request and validates it.
