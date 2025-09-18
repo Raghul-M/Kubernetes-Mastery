@@ -38,4 +38,4 @@ Large-scale deployments:
 If your application involves many containers, complex networking, scaling requirements, or high availability, Kubernetes becomes more relevant. It provides features like auto-scaling, service discovery, rolling updates, and self-healing, which are critical for production-grade systems.
 
 **Key point:**
-Always analyze your use case from all perspectives—complexity, scaling needs, maintenance overhead, team expertise, and cost—before deciding to adopt Kubernetes. Choosing the right tool ensures efficiency and avoids unnecessary complexity.
+Always analyze your use case from all perspectives complexity, scaling needs, maintenance overhead, team expertise, and cost before deciding to adopt Kubernetes. Choosing the right tool ensures efficiency and avoids unnecessary complexity.
