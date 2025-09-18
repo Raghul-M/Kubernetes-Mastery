@@ -1,12 +1,15 @@
 
 ## **Kubernetes Architecture**
 
+<img width="1101" height="751" alt="image" src="https://github.com/user-attachments/assets/c51ce2ce-7777-438b-8890-987504e659d9" />
+
+
 Kubernetes architecture consists of **Master (Control Plane)** and **Worker nodes (Data Plane)**.
 
 * A **Node** is a virtual or physical machine.
 * **Worker nodes** contain `kubelet`, an agent that manages Pods, which are the smallest deployable units where containers run.
 
----
+
 
 #### **Master Node Components**
 
@@ -26,10 +29,6 @@ Kubernetes architecture consists of **Master (Control Plane)** and **Worker node
 4. **etcd**: A key-value store that holds **all cluster data**, including configuration, state, and metadata.
 5. **Cloud Controller Manager**: Integrates Kubernetes with cloud provider APIs for resources like load balancers or storage.
 
----
-
-
-
 #### **Worker Node (Data Plane) Components**
 
 1. **kubelet**: Handles creation, monitoring, and health checks of Pods on the node. Receives instructions from the master node to ensure Pods are running correctly and reports back status.
@@ -39,8 +38,6 @@ Kubernetes architecture consists of **Master (Control Plane)** and **Worker node
    * Allocating IP addresses
    * Load balancing between Pods
    * Implementing network rules using IP tables
-
----
 
 #### **Kubernetes Request Flow (User → Cluster → Response)**
 
