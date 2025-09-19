@@ -1,5 +1,11 @@
 # Kubernetes Pods
 
+<p align="center">
+  <img width="646" height="441" alt="image" src="https://github.com/user-attachments/assets/1b5ebf35-ea88-4b1c-8a67-2fea7bc8cab2" />
+</p>
+
+
+
 A Pod is the smallest deployable unit in Kubernetes. It represents a single instance of a running process in your cluster.
 
 ## 📌 What is a Pod?
