@@ -3,6 +3,12 @@
 
 This guide demonstrates how to set up multiple Kubernetes clusters using Kind (Kubernetes in Docker) for local development and testing.
 
+<br>
+<div align="center">
+  <img width="289" height="174" alt="Kind logo" src="https://github.com/user-attachments/assets/fa5f3a3f-6ddc-4614-845d-51f79d5a6d5c" />
+</div>
+<br><br>
+
 ## 📌 Prerequisites
 
 Before setting up multi-cluster environments, ensure you have the following installed:
