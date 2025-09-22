@@ -1,4 +1,7 @@
 # Kubernetes Services
+<p align="center">
+<img width="915" height="678" alt="image" src="https://github.com/user-attachments/assets/730f48c9-7945-4d71-8f07-bf752334c9b2" />
+</p>
 
 A Kubernetes Service provides a stable network endpoint to access Pods reliably, abstracts Pod IPs, and supports different access patterns (internal, external, cloud load balancer).
 
