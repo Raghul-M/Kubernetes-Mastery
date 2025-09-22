@@ -1,5 +1,11 @@
 # Kubernetes Deployments
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4b6cd05f-0a1e-4331-a2ba-2f396acefd9c" width="512" height="575" alt="image"/>
+</p>
+
+
+
 A Deployment is a wrapper for Pods that enables auto-healing and auto-scaling capabilities. It provides declarative updates for Pods and ReplicaSets.
 
 ## 📌 What is a Deployment?
