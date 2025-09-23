@@ -1,4 +1,7 @@
 # Kubernetes Namespaces
+<p align="center">
+<img width="1200" height="675" alt="image" src="https://github.com/user-attachments/assets/32f35af1-dfa0-478c-a248-7c09228753a7" />
+</p>
 
 Namespaces provide a way to divide cluster resources between multiple users, teams, or projects. They create logical separation and isolation of resources within a single Kubernetes cluster.
 
