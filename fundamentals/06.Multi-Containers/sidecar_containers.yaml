@@ -1,0 +1,33 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sidecar-demo
+  labels:
+    app: sidecar-demo
+spec:
+  containers:
+  - name: main-app
+    image: nginx:1.14.2
+    ports:
+    - containerPort: 80
+  - name: log-processor
+    image: busybox:1.35
+    command: ['sh', '-c']
+    args:
+    - |
+      echo "Log processor sidecar starting..."
+      while true; do
+        echo "$(date): Processing logs..."
+        sleep 10
+      done
+  - name: cache-warmup
+    image: redis:7-alpine
+    command: ['sh', '-c']
+    args:
+    - |
+      echo "Cache warmup sidecar starting..."
+      redis-server --port 6379 &
+      sleep 5
+      redis-cli -p 6379 set "warmup" "completed"
+      echo "Cache warmed up successfully"
+      tail -f /dev/null
