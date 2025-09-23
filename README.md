@@ -4,42 +4,49 @@
 ![image](https://github.com/user-attachments/assets/66bd6ad9-c519-4bfd-b3d8-539198b63d12)
 
 
-## ✅ Phase 1: Core Kubernetes Concepts
+### ✅ Phase 1: Core Kubernetes Concepts
 
-- [x] Cluster Architecture (control plane, worker nodes)
-- [ ] kubectl Basics (`get`, `describe`, `logs`, `exec`)
-- [ ] Pods (multi-container pods, lifecycle)
-- [ ] ReplicaSets
-- [ ] Deployments (rolling updates, rollbacks)
-- [ ] Namespaces
+- [X]  Kubernetes Introduction 
+- [x]  Kubernetes  Architecture (control plane, worker nodes)
+- [X]  Installation Methods (Kubeadm , kind , k3s)
+- [x] kubectl Basics (`get`, `describe`, `logs`, `exec`)
+- [x] Pods (multi-container pods, Init pods , Pod lifecycle)
+- [x] Deployments (rolling updates, rollbacks, replicaset)
+- [x] Services (ClusterIP, NodePort, LoadBalancer)
+- [x] Namespaces
+- [ ] DaemonSets , Jobs and CronJobs
+- [ ] Labels and Selectors , Static Pods , Manual scheduling
+- [ ] Taints and Tolerations
+- [ ] Node Selectors, Affinity
+- [ ] Resource Requests & Limits
+- [ ] Horizontal Pod Autoscaler (HPA) vs Vertical Pod Autoscaler (VPA)
+- [ ] Health Probes ( Liveness, Readiness, Startup Probes )
+- [ ] ConfigMaps & Secrets
+- [ ] SSL / TLS
+- [ ] TLS Cerificate In Kubernetes cluster
 
 
 
-## ✅ Phase 2: Configuration & Resource Management
 
-- [ ] Services (ClusterIP, NodePort, LoadBalancer)
-- [ ] Labels and Selectors
-- [ ] ConfigMaps
-- [ ] Secrets
+### ✅ Phase 2: Configuration & Resource Management
 - [ ] Volumes (emptyDir, hostPath)
 - [ ] PersistentVolumes (PV) and PersistentVolumeClaims (PVC)
 - [ ] StorageClasses
-- [ ] Node Selectors, Affinity
-- [ ] Taints and Tolerations
 
 
 
-## ✅ Phase 3: Scheduling, Probes & Networking
 
-- [ ] Liveness, Readiness, Startup Probes
-- [ ] DaemonSets
-- [ ] Jobs and CronJobs
+
+### ✅ Phase 3: Scheduling, Probes & Networking
+
+
+
 - [ ] Ingress with NGINX Controller
 - [ ] Network Policies
 
 
 
-## ✅ Phase 4: Security
+### ✅ Phase 4: Security
 
 - [ ] RBAC (Roles, RoleBindings, ServiceAccounts)
 - [ ] Pod Security Contexts (non-root users, readonly)
@@ -48,7 +55,7 @@
 
 
 
-## ✅ Phase 5: Helm, CRDs & Operators
+### ✅ Phase 5: Helm, CRDs & Operators
 
 - [ ] Helm (install, upgrade, rollback)
 - [ ] Writing Custom Helm Charts
@@ -57,17 +64,17 @@
 
 
 
-## ✅ Phase 6: Observability & Resource Management
+### ✅ Phase 6: Observability & Resource Management
 
-- [ ] Resource Requests & Limits
-- [ ] Horizontal Pod Autoscaler (HPA)
+
+
 - [ ] Metrics Server
 - [ ] Prometheus + Grafana Monitoring
 - [ ] Fluentd or Loki Logging
 
 
 
-## ✅ Phase 7: CI/CD & GitOps
+### ✅ Phase 7: CI/CD & GitOps
 
 - [ ] GitHub Actions for K8s deployment
 - [ ] ArgoCD
@@ -76,7 +83,7 @@
 
 
 
-## ✅ Phase 8: MLOps with Kubernetes
+### ✅ Phase 8: MLOps with Kubernetes
 
 - [ ] Install and Use KServe
 - [ ] Deploy ONNX/Torch model via KServe
@@ -86,7 +93,7 @@
 
 
 
-## ✅ Phase 9: Production-Grade Concepts
+### ✅ Phase 9: Production-Grade Concepts
 
 - [ ] Setup EKS/GKE/AKS (managed clusters)
 - [ ] Cluster Autoscaler
