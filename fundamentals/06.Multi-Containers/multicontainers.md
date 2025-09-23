@@ -1,4 +1,8 @@
 # Multi-Container Pods
+<p align="center">
+  <img width="1200" height="661" alt="image" src="https://github.com/user-attachments/assets/7646434a-9e6a-4639-8616-38fec4e32672" />
+
+</p>
 
 A Pod can contain multiple containers that work together. The most common patterns are Init Containers and Sidecar Containers.
 
