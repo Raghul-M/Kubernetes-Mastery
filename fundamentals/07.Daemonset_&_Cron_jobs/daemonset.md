@@ -3,6 +3,9 @@
 
 This guide covers three important Kubernetes workload controllers: **DaemonSet**, **Job**, and **CronJob**. Each serves a specific purpose in managing different types of workloads in your cluster.
 
+<img width="1000" height="640" alt="image" src="https://github.com/user-attachments/assets/aa0ff116-9081-4846-a025-b18b4d014852" />
+
+
 ### 📌 **DaemonSet**
 
 A DaemonSet ensures that **one copy of a Pod runs on every node** in the cluster (or on specific nodes using node selectors/tolerations).
