@@ -14,9 +14,9 @@
 - [x] Deployments (rolling updates, rollbacks, replicaset)
 - [x] Services (ClusterIP, NodePort, LoadBalancer)
 - [x] Namespaces
-- [ ] DaemonSets , Jobs and CronJobs
-- [ ] Labels and Selectors , Static Pods , Manual scheduling
-- [ ] Taints and Tolerations
+- [x] DaemonSets , Jobs and CronJobs
+- [x] Labels and Selectors , Static Pods , Manual scheduling
+- [x] Taints and Tolerations
 - [ ] Node Selectors, Affinity
 - [ ] Resource Requests & Limits
 - [ ] Horizontal Pod Autoscaler (HPA) vs Vertical Pod Autoscaler (VPA)
