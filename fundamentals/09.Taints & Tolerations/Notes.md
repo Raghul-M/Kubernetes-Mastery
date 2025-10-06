@@ -1,6 +1,9 @@
 # Taints & Tolerations
 
 ## What are Taints and Tolerations?
+<p align="center">
+<img width="708" height="529" alt="image" src="https://github.com/user-attachments/assets/3a577b06-2f93-4a0e-84f5-3ea7a8174abc" />
+</p>
 
 **Taints** and **Tolerations** work together to ensure that pods are not scheduled onto inappropriate nodes. They provide a way to repel pods from nodes unless the pods have a matching toleration.
 
