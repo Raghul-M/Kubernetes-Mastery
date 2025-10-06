@@ -1,6 +1,7 @@
 # Static Pods & Manual Scheduling
-
-## Static Pods
+<p align="center">
+<img width="1416" height="672" alt="image" src="https://github.com/user-attachments/assets/85b4d735-a6c0-464b-aa0d-636ed61b56e4" />
+</p>
 
 ### What are Static Pods?
 Static pods are pods that are managed directly by the kubelet daemon on a specific node, without the API server observing them. They are defined by placing a pod definition file in a specific directory on the node.
